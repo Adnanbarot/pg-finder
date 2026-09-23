@@ -1,9 +1,11 @@
+import "./Navbar.css";
+
 function Navbar() {
   return (
-    <nav>
-      <h2>PG Finder</h2>
+    <nav className="navbar">
+      <h2 className="navbar-logo">PG Finder</h2>
 
-      <div>
+      <div className="navbar-links">
         <a href="#">Home</a>
         <a href="#">Browse PGs</a>
         <a href="#">Login</a>
