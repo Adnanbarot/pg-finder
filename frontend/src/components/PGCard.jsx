@@ -1,11 +1,12 @@
-function PGCard() {
+import "./PGCard.css";
+function PGCard({ name, location, price, type }) {
   return (
     <div className="pg-card">
       <h3>Comfort PG</h3>
 
-      <p>📍 Andheri, Mumbai</p>
-      <p>💰 ₹8,500 / month</p>
-      <p>🏠 Boys PG</p>
+      <p>📍 {location}</p>
+      <p>💰 {price}</p>
+      <p>🏠 {type}</p>
 
       <button>View Details</button>
     </div>
