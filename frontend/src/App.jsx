@@ -29,6 +29,18 @@ function App() {
         price="10000"
         type="Girls PG"
         />
+        <PGCard
+        name="Halal Haven"
+        location="Bhiwandi,whatsapp"
+        price="NA"
+        type="Boys Only!!!!"
+        />
+        <PGCard
+        name="Green view hostel"
+        location="Viman nagar,Pune"
+        price="7500"
+        type="Co-ed Hostel"
+        />
         </div>
       </section>
     </div>

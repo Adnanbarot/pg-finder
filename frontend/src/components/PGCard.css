@@ -6,6 +6,8 @@
   border-radius: 12px;
   background-color: white;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, 
+  box-shadow 0.2s ease;
 }
 
 .pg-card h3 {
@@ -26,4 +28,8 @@
   background-color: #2563eb;
   color: white;
   cursor: pointer;
+}
+.pg-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
